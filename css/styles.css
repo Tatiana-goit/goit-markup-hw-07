@@ -1,9 +1,4 @@
-/*===============ROOT============
-цвет заголовков текста  #212121;
-цвет текста #757575;
-цвет акцента #2196F3;
-белый цвет # FFFFFF
-*/
+/*===============ROOT============*/
 :root {
   --title-text-color: #212121;
   --text-color: #757575;
@@ -104,20 +99,20 @@ img {
   color: var(--accent-color);
 }
 
-.navigation-list {
+.navigation__list {
   display: flex;
   align-items: center;
 }
 
-.navigation-list-item:not(:last-child) {
+.navigation__list-item:not(:last-child) {
   margin-right: 50px;
 }
 
-.navigation-list-item {
+.navigation__list-item {
   position: relative;
 }
 
-.navigation-list-link {
+.navigation__list-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
@@ -129,7 +124,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.navigation-list-link.current::after {
+.navigation__list-link.current::after {
   position: absolute;
   content: "";
   left: 0;
@@ -140,8 +135,8 @@ img {
   background-color: var(--accent-color);
 }
 
-.navigation-list-link:hover,
-.navigation-list-link:focus {
+.navigation__list-link:hover,
+.navigation__list-link:focus {
   color: var(--accent-color);
 }
 
@@ -153,21 +148,21 @@ img {
   margin-left: auto;
 }
 
-.address-list {
+.address__list {
   display: flex;
 }
 
-.address-list-item:not(:last-child) {
+.address__list-item:not(:last-child) {
   margin-right: 50px;
 }
 
-.address-list-mail-icon {
+.address__list-icon {
   margin-right: 10px;
 
   fill: currentcolor;
 }
 
-.address-list-link {
+.address__list-link {
   display: flex;
   align-items: center;
   height: 40px;
@@ -183,13 +178,13 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.address-list-link:hover,
-.address-list-link:focus {
+.address__list-link:hover,
+.address__list-link:focus {
   color: var(--accent-color);
 }
 
-.address-list-mail-icon:hover,
-.address-list-mail-icon:focus {
+.address__list-mail-icon:hover,
+.address__list-mail-icon:focus {
   fill: currentcolor;
 }
 /*===============END HEADER============*/
