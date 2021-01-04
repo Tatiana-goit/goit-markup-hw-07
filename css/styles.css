@@ -90,7 +90,7 @@ img {
   display: flex;
 }
 
-.header .logo {
+.header__logo {
   margin-right: 93px;
   color: #000000;
 }
@@ -183,8 +183,8 @@ img {
   color: var(--accent-color);
 }
 
-.address__list-mail-icon:hover,
-.address__list-mail-icon:focus {
+.address__list-icon:hover,
+.address__list-icon:focus {
   fill: currentcolor;
 }
 /*===============END HEADER============*/
@@ -202,12 +202,12 @@ img {
   background-repeat: no-repeat;
 }
 
-.hero .contener {
+.hero__contener {
   padding-top: 200px;
   padding-bottom: 200px;
 }
 
-.hero-title {
+.hero__title {
   display: flex;
   max-width: 696px;
   margin: 0 auto 30px;
@@ -228,7 +228,6 @@ img {
   border-radius: 4px;
   border: none;
   cursor: pointer;
-  /* padding: 10px 32px; */
 
   font-weight: 700;
   font-size: 16px;
@@ -245,25 +244,25 @@ img {
 /*===============END HERO============*/
 
 /*===============ADVANTAGES============*/
-.advanteges .contener {
+.advanteges__contener {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.advantages-list {
+.advantages__list {
   display: flex;
 }
 
-.advantages-list-item {
+.advantages__list-item {
   width: 270px;
   min-height: 101px;
 }
 
-.advantages-list-item:not(:last-child) {
+.advantages__list-item:not(:last-child) {
   margin-right: 30px;
 }
 
-.advantages-list-item-title {
+.advantages__list-item-title {
   margin-bottom: 10px;
 
   font-weight: 700;
@@ -274,7 +273,7 @@ img {
   color: var(--title-text-color);
 }
 
-.advantages-list-item::before {
+.advantages__list-item::before {
   content: "";
   display: block;
   margin-bottom: 30px;
@@ -302,7 +301,7 @@ img {
   background-image: url(../images/svg/advantages04.svg);
 }
 
-.advantages-list-item-text {
+.advantages__list-item-text {
   min-height: 75px;
 
   font-weight: 400;
@@ -314,19 +313,11 @@ img {
 /*===============END ADVANTAGES============*/
 
 /*===============ACTIVITIES============*/
-.activities .contener {
+.activities__contener {
   padding-bottom: 94px;
 }
 
-.activities-list {
-  display: flex;
-}
-
-.activities-list-item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.activities-title {
+.activities__title {
   margin-bottom: 50px;
 
   font-weight: 700;
@@ -337,11 +328,19 @@ img {
   color: var(--title-text-color);
 }
 
-.activities-list-item {
+.activities__list {
+  display: flex;
+}
+
+.activities__list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.activities__list-item {
   position: relative;
 }
 
-.activities-list-title {
+.activities__list-item-title {
   position: absolute;
   width: 100%;
   height: 70px;
@@ -366,12 +365,12 @@ img {
   margin: auto;
   background-color: #f5f4fa;
 }
-.team .contener {
+.team__contener {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.team-list {
+.team__list {
   display: flex;
 }
 
@@ -546,7 +545,7 @@ img {
   margin-right: 93px;
 }
 
-.footer .logo {
+.footer__logo {
   display: inline-block;
   margin-bottom: 20px;
   color: var(--white-color);
