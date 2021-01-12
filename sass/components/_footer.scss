@@ -1,0 +1,76 @@
+.footer {
+  margin: auto;
+  background-color: #2f303a;
+}
+.footer__contener {
+  display: flex;
+  align-items: baseline;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer__left-side {
+  width: 231px;
+  margin-right: 70px;
+}
+
+.footer__center-side {
+  min-width: 206px;
+  height: 80px;
+  margin-right: 93px;
+}
+
+.contact__list-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.contact__list-city {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+
+.contact__list-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__title {
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.footer__form {
+  display: flex;
+  align-items: center;
+}
+
+.footer__form-email {
+  padding-left: 15px;
+  margin-right: 12px;
+
+  width: 358px;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  color: var(--white-color);
+}
+
+.footer__form-button {
+  width: 24px;
+  height: 24px;
+  fill: var(--white-color);
+  margin-left: 10px;
+}
