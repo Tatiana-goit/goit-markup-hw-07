@@ -68,29 +68,19 @@
 
 .modal__form-title {
   margin-bottom: 12px;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 1.15;
-  text-align: center;
-  letter-spacing: 0.03em;
+  @include font(700, 20px, 1.15, center, 0.03em);
   color: var(--title-text-color);
 }
 
 .modal__form-field {
   margin-bottom: 10px;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.667;
-  letter-spacing: 0.01em;
+  @include font(400, 12px, 1.667, left, 0.01em);
   color: var(--text-color);
 }
 
 .modal__form-comment {
   margin-bottom: 0;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.667;
-  letter-spacing: 0.01em;
+  @include font(400, 12px, 1.667, left, 0.01em);
   color: var(--text-color);
 }
 
@@ -154,11 +144,7 @@
 
 .modal__form-policy-text {
   display: flex;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
-  align-items: center;
+  @include font(4700, 14px, 1.714, center, 0.03em);
   color: var(--text-color);
 
   &::before {

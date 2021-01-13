@@ -1,9 +1,6 @@
 .logo {
   font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.192;
-  letter-spacing: 0.03em;
+  @include font(700, 26px, 1.192, left, 0.03em);
 }
 
 .header__logo {

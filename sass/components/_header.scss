@@ -26,10 +26,7 @@
 }
 
 .navigation__list-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.143;
-  letter-spacing: 0.02em;
+  @include font(500, 14px, 1.143, left, 0.02em);
   color: var(--title-text-color);
   transition-property: color;
   transition-duration: 250ms;
@@ -84,10 +81,7 @@
   display: flex;
   align-items: center;
   height: 40px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.143;
-  letter-spacing: 0.02em;
+  @include font(500, 14px, 1.143, left, 0.02em);
   color: var(--text-color);
   transition-property: color;
   transition-duration: 250ms;
