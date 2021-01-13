@@ -191,17 +191,17 @@ img {
   color: var(--accent-color);
 }
 
-.works-button__list {
+.filter__list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-.works-button__list-item:not(:last-child) {
+.filter__list-item:not(:last-child) {
   margin-right: 8px;
 }
 
-.works-button__list-btn {
+.filter__list-btn {
   padding: 6px 22px;
   font-family: var(--main-font);
   font-weight: 500;
@@ -217,7 +217,7 @@ img {
   transition-timing-function: var(--timing-fn);
 }
 
-.works-button__list-btn:hover, .works-button__list-btn:focus {
+.filter__list-btn:hover, .filter__list-btn:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
